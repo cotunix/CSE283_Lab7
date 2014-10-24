@@ -1,6 +1,7 @@
 package edu.miamioh.cse283.lab7;
 
 import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * Software network template for CSE283 Lab 7, FS2014.
@@ -37,6 +38,20 @@ public class LinkState {
 	 */
 	public void calculate_shortest_paths() {
 		// your code goes here.
+		
+		TreeSet<Integer> Nprime = new TreeSet<Integer>();
+		Nprime.add(0);
+		for (int i = 0; i < M.length; i++){
+			if (Nprime.contains(i)){
+				continue;
+			}
+			else
+			{
+				int path = i;
+			}
+			
+			
+		}
 	}
 
 	/**
